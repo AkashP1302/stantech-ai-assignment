@@ -1,4 +1,4 @@
-# Table Container Project
+📌 Stantech-AI-Assignment
 
 This project provides a reusable and customizable table component built with React. It supports dynamic sorting, pagination, search, and API integration.
 
@@ -18,8 +18,8 @@ This project provides a reusable and customizable table component built with Rea
 ### 1️⃣ Clone the Repository
 
 ```sh
-  git clone https://github.com/your-repository-name.git
-  cd your-repository-name
+  git clone https://github.com/AkashP1302/stantech-ai-assignment
+  cd stantech-ai-assignment
 ```
 
 ### 2️⃣ Install Dependencies
