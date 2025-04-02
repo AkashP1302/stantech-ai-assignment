@@ -1,0 +1,142 @@
+.table-container {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  width: 98%;
+  background-color: #f8f9fa;
+  padding: 10px;
+  position: relative;
+}
+
+/* Search Bar */
+.table-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #555;
+  transition: 0.3s;
+}
+
+.filter-btn:hover {
+  color: #222566;
+}
+.filter-btn .active-filter {
+  color: #222566; 
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+/* Table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Sorting Icons */
+.sort-icon {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #555;
+}
+
+.sort-icon.inactive {
+  opacity: 0.5;
+}
+
+/* Header */
+.table-cell-header {
+  color: #000;
+  font-weight: 600;
+  user-select: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  padding: 10px;
+}
+
+
+/* Row */
+.custom-row {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-row:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Pagination */
+.pagination-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pagination-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.page-size {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Pagination Buttons */
+.pagination-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  color: #555;
+  transition: 0.3s;
+}
+
+.pagination-btn:hover {
+  color: #222566;
+}
+
+.pagination-btn:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Page Info */
+.page-info {
+  font-weight: 600;
+}
